@@ -1,0 +1,11 @@
+tiles = int(input())
+
+#import statements
+from math import sqrt, floor
+
+# answer = tiles ** 0.5
+answer = sqrt(tiles)
+answer = floor(answer)
+
+#output
+print(f"The largest square had a side length of {answer}.")

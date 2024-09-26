@@ -1,0 +1,23 @@
+
+angle1 = int(input("Enter the first angle: "))
+angle2 = int(input("Enter the second angle: "))
+angle3 = int(input("Enter the third angle: "))
+
+angle_sum = angle1 + angle2 + angle3
+
+if angle_sum != 180:
+    print("This is not a triangle")
+
+else: 
+    
+    if angle1 == angle2 == angle3:
+        print("This is an equalaterial")
+    
+    elif angle1 != angle2 and angle2 != angle3 and angle1 !=angle3:
+        print("This is a scalene")
+
+    else:
+        print("THis is a isocles")
+    
+
+
